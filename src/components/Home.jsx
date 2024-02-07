@@ -1,11 +1,12 @@
 import React from "react";
 import "./Home.css";
+import Hero from "./Hero";
 
 const Home = () => {
   return (
-    <div className="container">
-      <div>1</div>
-    </div>
+    <>
+    <Hero title="Hello, My name is Mitch." content="I am a Software Developer" className="home-hero"/>
+    </>
   );
 };
 
