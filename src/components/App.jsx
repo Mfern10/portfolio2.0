@@ -6,7 +6,7 @@ import About from "./About";
 import TechStack from "./TechStack";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
-import ButtonUsage from "./Button";
+
 
 
 function App() {
