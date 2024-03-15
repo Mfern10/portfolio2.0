@@ -33,7 +33,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-image: url('./assets/img/background.jpg');
+  background-size: cover;
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
 }
@@ -62,7 +63,7 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: inherit;
 }
 
 nav.navbar a.navbar-brand {
@@ -136,7 +137,6 @@ span.navbar-text {
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
-  
 }
 .navbar-text button span {
   z-index: 1;
@@ -205,4 +205,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+  margin-top: 30%;
+  align-items: center;
+  font-family: Centra;
+}
+
+.banner h1 {
+  font-size: 5rem;
+}
+
+.banner p {
+  font-size: 2rem;
+  font-family: Centra;
+}
+
+.about-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
 }
