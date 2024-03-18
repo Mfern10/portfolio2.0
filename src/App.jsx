@@ -1,20 +1,17 @@
 import React from "react";
 import "./App.css";
 import { NavBar } from "./components/Navbar";
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Banner from "./components/Banner"
-import AboutBanner from "./components/AboutBanner";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./sections/Home";
 import Scroller from "./components/Scroller";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 
 
-
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar />
       {/* <Banner name="Mitch"/>
       <AboutBanner /> */}
       <Scroller />
@@ -22,7 +19,7 @@ function App() {
       <Skills />
       <Projects />
     </div>
-    )
+  );
 }
 
 export default App;
