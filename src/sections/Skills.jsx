@@ -1,11 +1,11 @@
-import AboutBanner from "../components/AboutBanner";
+import SkillsBanner from "../components/SkillsBanner";
 import TechStack from "../components/TechStack";
 
 const Skills = () => {
   return (
     <section id="skills">
-      <AboutBanner />
-      <TechStack />
+      <SkillsBanner />
+      {/* <TechStack /> */}
     </section>
   );
 };

@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 
+
 const Home = () => {
   return (
     <section id="home">

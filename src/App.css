@@ -225,23 +225,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 2rem;
 }
 
-.about-banner {
+.skills-banner {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  text-align: center;
-  
-  
 }
 
 /* Skills styles */
 
 .skills-p {
+  width: auto;
   text-align: center;
   font-size: 1.5rem;
-  
 }
 
 .card-title {
@@ -253,24 +251,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20%;
 }
 
 /* Project cards styles */
+
+.whole-projects-container {
+  height: 100vh;
+  display: flex;
+  align-items: center !important;
+}
 
 .projects-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  height: 60% !important;
   /* justify-content: center;
   align-items: center; */
 }
 
 .project-card {
-  background-color: transparent !important;
+  width: 300px !important;
+  height: 550px !important;
+  background-color: #404040 !important;
   color: #fff !important;
   margin: 1rem;
+  padding: 0.5rem;
 }
 
 .projects-text-container {
