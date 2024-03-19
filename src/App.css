@@ -34,8 +34,8 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
-  /* background-image: url("./assets/img/background.jpg");
-  background-size: cover; */
+  background-image: url("./assets/img/sandblack-bg.jpg");
+  background-size: cover;
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
 }
@@ -232,17 +232,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  height: 50vh;
 }
 
 /* Skills styles */
 
-
 .skills-p {
   text-align: center;
   font-size: 1.5rem;
-  width: 50%
-  
+  width: 50%;
 }
 
 .card-title {
@@ -254,8 +251,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   border-radius: 1rem;
   justify-content: center;
+  margin-bottom: 20%;
 }
 
-.tech-stack-card {
-  
+/* Project cards styles */
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%
+}
+
+.project-card {
+  background-color: transparent !important;
+  border: 2px solid #121212 !important;
+  color: #fff !important;
+  margin: 1rem;
+}
+
+.projects-section {
+  margin-bottom: 20%
 }

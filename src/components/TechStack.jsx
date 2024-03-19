@@ -4,6 +4,12 @@ import { Container } from "react-bootstrap";
 import JSLogo from "../assets/img/javascript-lgo.png";
 import PythonLogo from "../assets/img/python-logo.png";
 import FlaskLogo from "../assets/img/flask-logo.png";
+import NodeLogo from "../assets/img/node-js-logo.png";
+import HtmlLogo from "../assets/img/html-logo.png";
+import CssLogo from "../assets/img/css-logo.png";
+import ExpressLogo from "../assets/img/express-js-logo.png";
+import MongoDBLogo from "../assets/img/mongo-db-logo.png";
+import PostgresqlLogo from "../assets/img/postgresql-logo.png";
 
 
 function TechStack() {
@@ -70,7 +76,7 @@ function TechStack() {
       >
         <Card.Img
           variant="top"
-          src={ReactLogo}
+          src={HtmlLogo}
           style={{ opacity: "100%", padding: "1rem" }}
         />
         <Card.Body>
@@ -87,7 +93,7 @@ function TechStack() {
       >
         <Card.Img
           variant="top"
-          src={ReactLogo}
+          src={CssLogo}
           style={{ opacity: "100%", padding: "1rem" }}
         />
         <Card.Body>
@@ -121,7 +127,7 @@ function TechStack() {
       >
         <Card.Img
           variant="top"
-          src={ReactLogo}
+          src={ExpressLogo}
           style={{ opacity: "100%", padding: "1rem" }}
         />
         <Card.Body>
@@ -138,7 +144,7 @@ function TechStack() {
       >
         <Card.Img
           variant="top"
-          src={ReactLogo}
+          src={NodeLogo}
           style={{ opacity: "100%", padding: "1rem" }}
         />
         <Card.Body>
@@ -155,7 +161,7 @@ function TechStack() {
       >
         <Card.Img
           variant="top"
-          src={ReactLogo}
+          src={MongoDBLogo}
           style={{ opacity: "100%", padding: "1rem" }}
         />
         <Card.Body>
@@ -172,7 +178,7 @@ function TechStack() {
       >
         <Card.Img
           variant="top"
-          src={ReactLogo}
+          src={PostgresqlLogo}
           style={{ opacity: "100%", padding: "1rem" }}
         />
         <Card.Body>

@@ -3,8 +3,7 @@ import Banner from "../components/Banner";
 const Home = () => {
   return (
     <section id="home">
-      <Banner name="Mitch"/>
-      
+      <Banner name="Mitch" />
     </section>
   );
 };

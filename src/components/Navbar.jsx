@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 
-import gitIcon from "../assets/img/github.svg";
+import gitIcon from "../assets/img/github-logo.png";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -73,10 +73,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/mitchell-fernandez/">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://github.com/Mfern10">
                   <img src={gitIcon} alt="" />
                 </a>
               </div>
