@@ -302,7 +302,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 1.5rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 701px) {
   .skills-container {
     flex-direction: column;
     height: auto;
@@ -315,6 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     flex-direction: column;
     flex-wrap: nowrap;
     height: auto;
+    margin-top: 20%;
   }
   .projects-container {
     flex-direction: column;
