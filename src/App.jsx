@@ -7,13 +7,10 @@ import Scroller from "./components/Scroller";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 
-
 function App() {
   return (
     <div className="App">
       <NavBar />
-      {/* <Banner name="Mitch"/>
-      <AboutBanner /> */}
       <Scroller />
       <Home />
       <Skills />
