@@ -231,6 +231,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+  
+  
 }
 
 /* Skills styles */
@@ -238,7 +241,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skills-p {
   text-align: center;
   font-size: 1.5rem;
-  width: 50%;
+  
 }
 
 .card-title {
@@ -248,9 +251,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .tech-stack-container {
   display: flex;
-  border-radius: 1rem;
   justify-content: center;
-  margin-bottom: 10%;
+  align-items: center;
+  margin-bottom: 20%;
 }
 
 /* Project cards styles */
@@ -270,13 +273,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 1rem;
 }
 
-.projects-h1 {
+.projects-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 1rem;
+  flex-wrap: wrap;
 }
 
-.projects-p {
-  text-align: center;
+.projects-text-container p {
   font-size: 1.5rem;
-  width: 50%;
 }

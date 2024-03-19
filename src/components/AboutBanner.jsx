@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import TechStack from "./TechStack";
+import { Container } from "react-bootstrap";
 
 
 const AboutBanner = () => {
@@ -14,14 +15,15 @@ const AboutBanner = () => {
     }, []);
   return (
     <div className="about-banner">
-      <h1 className="skills-title">Skills</h1>
-      <p className="skills-p">
-        I am an experienced Full Stack Web Developer with a Focus on MERN Stack.
-        I like to build functional and creative applications with a focus on
-        clean and efficient code.
-        <br />
-        {" "}
-      </p>
+      <Container>
+        <h1 className="skills-title">Skills</h1>
+        <p className="skills-p">
+          I am an experienced Full Stack Web Developer with a Focus on MERN
+          Stack. I like to build functional and creative applications with a
+          focus on clean and efficient code.
+          <br />
+        </p>
+      </Container>
     </div>
   );
 };
