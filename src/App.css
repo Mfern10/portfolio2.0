@@ -69,7 +69,7 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #404040;
 }
 
 nav.navbar a.navbar-brand {
@@ -213,7 +213,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
-/* Banner Styles */
+/* Home Section Styles */
 .banner {
   display: flex;
   flex-direction: column;
@@ -230,6 +230,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 2rem;
 }
 
+
+/* Skills section styles */
+
 .skills-container {
   height: 100vh;
   display: flex;
@@ -243,7 +246,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-wrap: nowrap;
 }
 
-/* Skills styles */
 
 .card-wrapper {
   display: grid;
@@ -308,6 +310,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 1.5rem;
 }
 
+/* Media Breakpoints for responsiveness */
+
 @media (max-width: 701px) {
   .skills-container {
     flex-direction: column;
@@ -325,5 +329,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .projects-container {
     flex-direction: column;
+  }
+  .banner {
+    text-align: center;
+    justify-content: center;
   }
 }
