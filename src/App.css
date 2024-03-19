@@ -301,3 +301,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .projects-text-container p {
   font-size: 1.5rem;
 }
+
+@media (max-width: 375px) {
+  .skills-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .skills-banner {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .whole-projects-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+}
