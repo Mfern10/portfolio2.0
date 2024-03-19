@@ -17,6 +17,11 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
 /* Default CSS */
 * {
   margin: 0;
@@ -37,7 +42,7 @@ body {
   background-image: url("./assets/img/sandblack-bg.jpg");
   background-size: cover;
   color: #fff !important;
-  font-family: "Centra", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 h1,
@@ -229,7 +234,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100vh;
   display: flex;
   align-items: center;
-
 }
 
 .skills-banner {
@@ -237,7 +241,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
-  
 }
 
 /* Skills styles */
@@ -274,24 +277,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .projects-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  /* justify-content: center;
-  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-card {
-  width: 300px !important;
-  height: 550px !important;
+  width: 100% !important;
+  max-width: 300px;
+  height: 500px !important;
   background-color: #404040 !important;
   color: #fff !important;
   margin: 1rem;
   padding: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .projects-text-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;

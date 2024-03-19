@@ -10,7 +10,10 @@ import Projects from "./sections/Projects";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar
+        linkedInLink="https://www.linkedin.com/in/mitchell-fernandez/"
+        gitHubLink="https://github.com/Mfern10"
+      />
       <Scroller />
       <Home />
       <Skills />

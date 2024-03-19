@@ -7,7 +7,7 @@ import gitIcon from "../assets/img/github-logo.png";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-export const NavBar = () => {
+export const NavBar = ({linkedInLink, gitHubLink}) => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
@@ -34,7 +34,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo}  alt="Logo" />
+            <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -73,10 +73,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/mitchell-fernandez/">
+                <a onClick={() => (window.location.href = linkedInLink)}>
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="https://github.com/Mfern10">
+                <a onClick={() => (window.location.href = gitHubLink)}>
                   <img src={gitIcon} alt="" />
                 </a>
               </div>

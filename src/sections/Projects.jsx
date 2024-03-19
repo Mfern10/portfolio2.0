@@ -3,6 +3,7 @@ import ProjectCards from "../components/ProjectCards";
 import MovieMaestroImg from "../assets/img/moviemaestro.png";
 import ClothingCatalogueImg from "../assets/img/clothingcatalogue-api.png";
 import HangmanImg from "../assets/img/hangman-terminal.png";
+import PortfolioV1Img from "../assets/img/portfolioV1.png";
 
 const Projects = () => {
   return (
@@ -34,6 +35,12 @@ const Projects = () => {
             text="A fun Terminal Game created using Python and BASH scripting. The game shows strong understanding of back-end and terminal knowledge."
             img={HangmanImg}
             link="https://github.com/Mfern10/Terminal_app_hangman/tree/main"
+          />
+          <ProjectCards
+            title="Portfolio Website - Version 1"
+            text="This website was my first piece of assessment at Coder Academy. I created a Static Website using HTML and CSS. This website taught me the fundamentals of HTML and CSS and building static websites. My idea was to create a website that was simplistic, minimalistic and easy to use."
+            img={PortfolioV1Img}
+            link="https://mitchellfernandez.vercel.app/index.html"
           />
         </Container>
       </Container>
