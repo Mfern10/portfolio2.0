@@ -223,7 +223,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner p {
   font-size: 2rem;
-  font-family: Centra;
 }
 
 .about-banner {
@@ -251,7 +250,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   border-radius: 1rem;
   justify-content: center;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 /* Project cards styles */
@@ -260,18 +259,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%
+  height: 60% !important;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .project-card {
   background-color: transparent !important;
-  border: 2px solid #121212 !important;
   color: #fff !important;
   margin: 1rem;
 }
 
-.projects-section {
-  margin-bottom: 20%
+.projects-h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.projects-p {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 50%;
 }
