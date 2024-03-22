@@ -7,7 +7,7 @@ import gitIcon from "../assets/img/github-logo.png";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-export const NavBar = ({linkedInLink, gitHubLink}) => {
+export const NavBar = ({ linkedInLink, gitHubLink }) => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
@@ -69,6 +69,17 @@ export const NavBar = ({linkedInLink, gitHubLink}) => {
                 onClick={() => onUpdateActiveLink("projects")}
               >
                 Projects
+              </Nav.Link>
+              <Nav.Link
+                href="#contact"
+                className={
+                  activeLink === "contact"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("contact")}
+              >
+                Contact
               </Nav.Link>
             </Nav>
             <span className="navbar-text">

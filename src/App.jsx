@@ -6,6 +6,8 @@ import Home from "./sections/Home";
 import Scroller from "./components/Scroller";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
+import Footer from "./components/Footer";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Home />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

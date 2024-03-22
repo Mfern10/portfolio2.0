@@ -1,16 +1,19 @@
 import React from "react";
-import DownButtonImg from "../assets/img/downbutton.png";
+import ButtonClick from "./Button";
 
 const Banner = ({ name }) => {
   return (
     <div className="banner">
       <h1>Hi, I'm {name}.</h1>
       <p>I am a Software Developer</p>
-      {/* <div className="downbutton-div">
-        <img src={DownButtonImg} />
-      </div> */}
+      <ButtonClick  title="Resume"/>
     </div>
   );
 };
 
 export default Banner;
+
+
+
+
+

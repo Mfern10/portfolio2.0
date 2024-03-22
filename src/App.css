@@ -27,6 +27,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 html {
@@ -334,4 +335,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-align: center;
     justify-content: center;
   }
+}
+
+/* Footer Styles  */
+
+/* Footer CSS */
+.footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: inherit;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.resume-button {
+  background-color: inherit !important;
+  border-color: inherit !important;
 }
