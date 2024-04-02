@@ -1,13 +1,15 @@
-
-
 const Contact = () => {
   return (
     <section id="contact">
-      <h1>Contact</h1>
       {/* Resume Link Button Set this section out like a form 
       Email
       Linkedin
       Github */}
+      <div className="contact-form-container">
+        <h1>Contact</h1>
+        <p>For any enquiries please reach me by email: <br></br><br></br>
+        mitchellfernandez147@gmail.com</p>
+      </div>
     </section>
   );
 };

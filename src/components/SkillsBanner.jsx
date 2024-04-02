@@ -10,9 +10,9 @@ const SkillsBanner = () => {
         <Container className="skills-banner">
           <h1 className="skills-title">Skills</h1>
           <p className="skills-p">
-            I am an experienced Full Stack Web Developer with a Focus on MERN
+            I am an experienced Full Stack Web Developer with a focus on MERN
             Stack. I like to build functional and creative applications with a
-            focus on clean and efficient code.
+            strong ability to write clean and efficient code.
             <br />
           </p>
         </Container>

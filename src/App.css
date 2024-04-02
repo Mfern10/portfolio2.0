@@ -276,6 +276,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .whole-projects-container {
   height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center !important;
 }
 
@@ -309,6 +310,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .projects-text-container p {
   font-size: 1.5rem;
+}
+
+.contact-form-container {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 /* Media Breakpoints for responsiveness */

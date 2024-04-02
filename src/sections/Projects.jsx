@@ -8,7 +8,7 @@ import PortfolioV1Img from "../assets/img/portfolioV1.png";
 const Projects = () => {
   return (
     <>
-      <Container className="whole-projects-container">
+      <Container className="whole-projects-container" id="projects">
         <Container className="projects-text-container">
           <h1 className="projects-h1">Projects</h1>
           <p className="projects-p">
@@ -17,7 +17,7 @@ const Projects = () => {
             a look at some of my key projects.
           </p>
         </Container>
-        <Container className="projects-container" id="projects">
+        <Container className="projects-container">
           <ProjectCards
             title="MovieMaestro - Movie Randomizer"
             text="A Full Stack MERN application. Built by a team of 3 Developers. Fixes the issue of doom scrolling by suggesting movies based on search criteria such as streaming platforms, region, genre, rating etc. "
