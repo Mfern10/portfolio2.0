@@ -27,7 +27,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 html {
@@ -231,7 +230,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 2rem;
 }
 
-
 /* Skills section styles */
 
 .skills-container {
@@ -246,7 +244,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   flex-wrap: nowrap;
 }
-
 
 .card-wrapper {
   display: grid;
@@ -294,10 +291,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 500px !important;
   background-color: #404040 !important;
   color: #fff !important;
-  margin: 1rem;
+  margin: 0.05rem;
   padding: 0.5rem;
   font-size: 0.9rem;
 }
+
 
 .projects-text-container {
   display: flex;
@@ -318,7 +316,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .contact-p {

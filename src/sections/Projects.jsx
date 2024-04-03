@@ -4,6 +4,7 @@ import MovieMaestroImg from "../assets/img/moviemaestro.png";
 import ClothingCatalogueImg from "../assets/img/clothingcatalogue-api.png";
 import HangmanImg from "../assets/img/hangman-terminal.png";
 import PortfolioV1Img from "../assets/img/portfolioV1.png";
+import PortfolioV2Img from "../assets/img/portfolioV2.png";
 
 const Projects = () => {
   return (
@@ -18,6 +19,12 @@ const Projects = () => {
           </p>
         </Container>
         <Container className="projects-container">
+          <ProjectCards
+            title="Portfolio Website - Version 2"
+            text="Created using React, A simple yet effective single page application personal portfolio that includes information such as: Resume, Skills, Projects and Contact details."
+            img={PortfolioV2Img}
+            link="https://mitchellfernandez.netlify.app/"
+            />
           <ProjectCards
             title="MovieMaestro - Movie Randomizer"
             text="A Full Stack MERN application. Built by a team of 3 Developers. Fixes the issue of doom scrolling by suggesting movies based on search criteria such as streaming platforms, region, genre, rating etc. "
@@ -38,7 +45,7 @@ const Projects = () => {
           />
           <ProjectCards
             title="Portfolio Website - Version 1"
-            text="This website was my first piece of assessment at Coder Academy. I created a Static Website using HTML and CSS. This website taught me the fundamentals of HTML and CSS and building static websites. My idea was to create a website that was simplistic, minimalistic and easy to use."
+            text="Static Portfolio Website written in HTML and CSS. My first project at Coder Academy showing myself as a Developer. Taught me the fundamental concepts of Web Development."
             img={PortfolioV1Img}
             link="https://mitchellfernandez.vercel.app/index.html"
           />
