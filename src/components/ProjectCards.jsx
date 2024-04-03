@@ -12,7 +12,7 @@ function ProjectCards({title, text, link, img}) {
           <Card.Title style={{ fontWeight: 600 }}>{title}</Card.Title>
           <Card.Text>{text}</Card.Text>
           <Button
-            variant="primary"
+            variant="dark"
             onClick={() => (window.location.href = link)}
           >
             See more

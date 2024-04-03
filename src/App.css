@@ -17,10 +17,10 @@
   font-weight: 400;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Open Sans";
   src: url("./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
-}
+} */
 
 /* Default CSS */
 * {
@@ -319,6 +319,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
   justify-content: center;
 
+}
+
+.contact-p {
+  font-size: 1.5rem;
 }
 
 /* Media Breakpoints for responsiveness */
