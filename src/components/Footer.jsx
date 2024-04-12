@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>Created by Mitchell Fernandez</p>
-      <p>App Icons by: Icons8</p>
+      <p>
+        App Icons by: <a href="https://icons8.com/icons">Icons8</a>
+      </p>
     </footer>
   );
 };

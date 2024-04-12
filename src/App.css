@@ -271,7 +271,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Project cards styles */
 
 .whole-projects-container {
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center !important;
@@ -279,7 +279,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -324,7 +324,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Media Breakpoints for responsiveness */
 
-@media (max-width: 701px) {
+@media (max-width: 1000px) {
   .skills-container {
     flex-direction: column;
     height: auto;
