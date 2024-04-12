@@ -24,7 +24,7 @@ const Projects = () => {
             text="Created using React, A simple yet effective single page application personal portfolio that includes information such as: Resume, Skills, Projects and Contact details."
             img={PortfolioV2Img}
             link="https://mitchellfernandez.netlify.app/"
-            />
+          />
           <ProjectCards
             title="MovieMaestro - Movie Randomizer"
             text="A Full Stack MERN application. Built by a team of 3 Developers. Fixes the issue of doom scrolling by suggesting movies based on search criteria such as streaming platforms, region, genre, rating etc. "
